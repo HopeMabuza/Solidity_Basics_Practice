@@ -1,7 +1,7 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "/home/wtc/Documents/Blockchain-Elective/solidity_basics-main (copy)/contracts/fullSchoolSystem.sol": {
+    "/home/wtc/Documents/Blockchain-Elective/Solidity_Basics_Practice/contracts/fullSchoolSystem.sol": {
       "lastModificationDate": 1771419957592,
       "contentHash": "13f21b75df4850be818a46a928f74af1",
       "sourceName": "contracts/fullSchoolSystem.sol",
@@ -9,7 +9,7 @@
         "version": "0.8.19",
         "settings": {
           "optimizer": {
-            "enabled": true,
+            "enabled": false,
             "runs": 1000
           },
           "outputSelection": {
@@ -25,6 +25,9 @@
                 "ast"
               ]
             }
+          },
+          "metadata": {
+            "useLiteralContent": false
           }
         }
       },
