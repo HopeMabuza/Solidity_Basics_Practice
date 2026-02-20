@@ -1,4 +1,0 @@
-await ethers.provider.getBalance(owner.address)
-user.address
-owner.address
-const [owner, user] = await ethers.getSigners()
