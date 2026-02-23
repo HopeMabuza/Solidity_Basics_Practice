@@ -1,8 +1,8 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "/home/wtc/Documents/Blockchain-Elective/Solidity_Basics_Practice/contracts/fullSchoolSystem.sol": {
-      "lastModificationDate": 1771837237032,
+    "/home/wtc/Documents/Workshops/Solidity_Basics_Practice/contracts/fullSchoolSystem.sol": {
+      "lastModificationDate": 1771870116739,
       "contentHash": "437df651fac2e7c4fcf8c776a8e9ff5b",
       "sourceName": "contracts/fullSchoolSystem.sol",
       "solcConfig": {
