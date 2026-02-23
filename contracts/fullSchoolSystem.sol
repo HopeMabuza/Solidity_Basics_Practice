@@ -84,6 +84,11 @@ contract AdminControl {
         _;
     }
 
+    //added getter for admin adresses
+    function getAdmin() public view returns (address) {
+        return admin;
+    }
+
     function changeAdmin(address _newAdmin) public onlyAdmin {
         admin = _newAdmin;
     }
