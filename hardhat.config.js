@@ -17,6 +17,9 @@ module.exports = {
     hardhat: {
       // For local testing
     },
+    polygon: {
+      url: "https://polygon.drpc.org",
+    }
   },
   solidity: {
     version: "0.8.19",

@@ -1,0 +1,28 @@
+console.log({  hash: tx2.hash,  from: tx2.from,  to: tx2.to,  value: ethers.formatEther(tx2.value) + " MATIC",  gasPrice: ethers.formatUnits(tx2.gasPrice, "gwei") + " gwei"});
+console.log({  hash: tx.hash,  from: tx.from,  to: tx.to,  value: ethers.formatEther(tx.value) + " MATIC",  gasPrice: ethers.formatUnits(tx.gasPrice, "gwei") + " gwei"});
+const tx2 = myPolygonBlock.prefetchedTransactions[0];
+const tx = myPolygonBlock.prefetchedTransactions[0];
+myPolygonBlock = await ethers.provider.getBlock(9013787, true);
+const tx = myBlock.prefetchedTransactions[0];
+const block = await ethers.provider.getBlock(9013787, true);
+console.log("Number of Transactions:", block.transactions.length);
+console.log("Success! Block Number:", block.number);
+const block = await ethers.provider.getBlock(result.block);
+const result = await dater.getDate(targetTime);
+const targetTime = "2021-01-01T00:01:00Z";
+const dater = new EthDater(ethers.provider);
+const EthDater = require('ethereum-block-by-date');
+console.log("Ploygon Block Number:", result.block);
+const result = await dater.getDate(targetTime);
+const targetTime = "2021-01-01T00:01:00Z";
+const dater = new EthDater(ethers.provider);
+const EthDater = require('ethereum-block-by-date');
+console.log("Your Timestamp is:", targetDate);
+const targetDate = new Date("2021-01-01T00:01:00Z").getTime() / 100;
+console.log(block);
+// 3. See the data
+const block = await ethers.provider.getBlock(8912000);
+// 2. Polygon was around block 8,900,000 on Jan 1st, 2021
+const targetDate = new Date("2021-01-01T00:01:00Z").getTime() / 1000;
+// 1. Create the timestamp
+// 1. Create the timestampconst targetDate = new Date("2021-01-01T00:01:00Z").getTime() / 1000;// 2. Polygon was around block 8,900,000 on Jan 1st, 2021const block = await ethers.provider.getBlock(8912000);// 3. See the dataconsole.log(block);
